@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ivFoto"
+            android:background="@drawable/perro1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/hueso_blanco"
+                android:id="@+id/ibHuesoBlanco"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_gravity="center_vertical"
+                android:text="Catty"
+                android:id="@+id/tvNombre"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="100dp"
+                android:text="0"
+                android:id="@+id/tvnLikes"/>
+            
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/hueso_amarillo"
+                android:id="@+id/ivHuesoAmarillo"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
